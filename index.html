@@ -48,6 +48,68 @@
       </div> 
     </div>
   </nav>
+
+  <style>
+  * {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+    #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0489aa;
+  color: white;
+}
+#convener th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3e59e0;
+  color: white;
+
+  </style>
 </header>
 
 <!-- Add your site or app content here -->
@@ -72,7 +134,7 @@
             <h2>About Us</h2>
             <p>Our Project Description
             <br>
-            This Website is developed to help bla3</p>
+            Appointment Management System is a website based system<br/>designed to ease the process of booking the venues for multi-tier business discussion<br/>With more than 5 rooms each with their unique environment and utilities, We are committed to serve only the best for the staffs, clients and any organizations that are still looking for professional consultation and discussion places</p>
           </div>
        </div>
       </div>
@@ -153,6 +215,154 @@
 
   <div class="section-container">
     <div class="container text-center">
+      <div class="row">
+  <div class="column">
+    <table id="convener">
+      <tr>
+        <th>Room ID</th>
+        <th>Room Name</th>
+        
+      </tr>
+      <tr>
+        <td>CPK</td>
+        <td>Cempaka</td>
+        
+      </tr>
+      <tr>
+        <td>ANG</td>
+        <td>Anggerik</td>
+        
+      </tr>
+      <tr>
+        <td>HIB</td>
+        <td>Bunga Raya</td>
+        
+      </tr>
+      <tr>
+        <td>ORK</td>
+        <td>Orkid</td>
+        
+      </tr>
+      <tr>
+        <td>MEL</td>
+        <td>Melur</td>
+        
+      </tr>
+      
+    </table>
+  </div>
+  <div class="column">
+    <table id="convener">
+      <tr>
+        <th>Convener ID</th>
+        <th>Convener Name</th>
+        
+      </tr>
+      <tr>
+        <td>1024</td>
+        <td>Muthu</td>
+        
+      </tr>
+      <tr>
+        <td>1025</td>
+        <td>Sami</td>
+        
+      </tr>
+      <tr>
+        <td>1026</td>
+        <td>Alessandro</td>
+        
+      </tr>
+       <tr>
+        <td>1027</td>
+        <td>Effiendiv</td>
+        
+      </tr>
+       <tr>
+        <td>1028</td>
+        <td>Ivan</td>
+        
+      </tr>
+    </table>
+  </div>
+</div>
+    </div>
+  </div>
+   <div class="section-container">
+     <div class="container text-center">
+       <table id="customers">
+  <tr>
+    <th>Date</th>
+    <th>Agenda</th>
+    <th>Room</th>
+    <th>Converner</th>
+  </tr>
+  <tr>
+    <td>6/7/2021</td>
+    <td>CMCO 5.0 Rehearsal</td>
+    <td>CPK</td>
+    <td>1024</td>
+  </tr>
+  <tr>
+    <td>31/7/2021</td>
+    <td>Appreciation Event Meeting</td>
+    <td>CPK</td>
+    <td>1027</td>
+  </tr>
+  <tr>
+    <td>31/7/2021</td>
+    <td>Project Mega first Meeting</td>
+    <td>HIB</td>
+    <td>1026</td>
+  </tr>
+  <tr>
+    <td>2/8/2021</td>
+    <td>Project Mega Second Meeting</td>
+    <td>ANG</td>
+    <td>1024</td>
+  </tr>
+  <tr>
+    <td>8/8/2021</td>
+    <td>Project Mega Finalize Meeting</td>
+    <td>HIB</td>
+    <td>1025</td>
+  </tr>
+  <tr>
+    <td>19/8/2021</td>
+    <td>MCO 6.7 Procedure</td>
+    <td>MEL</td>
+    <td>1028</td>
+  </tr>
+  <tr>
+    <td>20/8/2021</td>
+    <td>Auditing 1.0</td>
+    <td>ORK</td>
+    <td>1028</td>
+  </tr>
+  <tr>
+    <td>21/8/2021</td>
+    <td>Auditing 2.0</td>
+    <td>CPK</td>
+    <td>1027</td>
+  </tr>
+  <tr>
+    <td>21/8/2021</td>
+    <td>Meeting with Client</td>
+    <td>ORK</td>
+    <td>1024</td>
+  </tr>
+  <tr>
+    <td>31/8/2021</td>
+    <td>Hari Raya korban Event</td>
+    <td>ANG</td>
+    <td>1026</td>
+  </tr>
+</table>
+
+     </div>
+   </div>
+  <div class="section-container">
+    <div class="container text-center">
       <div class="row section-container-spacer">
         <div class="col-xs-12 col-md-12">
           <h2>Members</h2>
@@ -161,7 +371,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4">
-          <img src="./assets/images/Sofea2.JPG" alt="" class="reveal img-responsive reveal-content image-center" width="220" height="206">
+          <img src="./assets/images/Sofea2.jpg" alt="" class="reveal img-responsive reveal-content image-center" width="220" height="206">
           <h3>Sofea Izzati </h3>
           <h4>Lead Developer</h4>
           <p>Description about Sofea</p>
@@ -215,7 +425,7 @@
           </p>
         </div>
         <div class="col-xs-12 col-md-4">
-          <img src="./assets/images/hamizan.jpeg" alt="" height="206" width="220" class="reveal img-responsive reveal-content image-center">
+          <img src="./assets/images/hamizan.jpg" alt="" height="206" width="220" class="reveal img-responsive reveal-content image-center">
           <h3>Muhammad Hamizan</h3>
           <h4>UX Developer</h4>
           <p>Description about Hamizan</p>
@@ -345,7 +555,6 @@
 </script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
-
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -356,7 +565,6 @@
   ga('create', 'UA-XXXXX-X', 'auto');
   ga('send', 'pageview');
 </script>
-
 --> <script type="text/javascript" src="./main.0cf8b554.js"></script></body>
 
 </html>
